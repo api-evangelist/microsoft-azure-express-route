@@ -1,5 +1,21 @@
 aid: microsoft-azure-express-route
+name: Azure ExpressRoute
+description: >-
+  Azure ExpressRoute lets you create private connections between Azure
+  datacenters and infrastructure on your premises or in a colocation
+  environment. The REST API enables management of circuits, peering, route
+  filters, and ExpressRoute Global Reach for cross-premises connectivity.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - ExpressRoute
+  - Hybrid Network
+  - Private Connectivity
+  - WAN
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/apis.yml
+created: '2026-03-13'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 apis:
   - aid: microsoft-azure-express-route:rest-api
     name: Azure ExpressRoute REST API
@@ -30,10 +46,6 @@ common:
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
-modified: '2026-03-16'
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
-description: >-
-  Learn how Azure ExpressRoute lets you create private connections between Azure datacenters
-  and infrastructure on your premises or in a colocation environment.
