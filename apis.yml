@@ -28,6 +28,8 @@ apis:
     baseURL: https://management.azure.com/
     humanURL: https://learn.microsoft.com/en-us/rest/api/expressroute/
     properties:
+      - url: openapi/microsoft-azure-express-route-openapi.yml
+        type: OpenAPI
       - url: https://learn.microsoft.com/en-us/rest/api/expressroute/
         type: Documentation
     description: >-
