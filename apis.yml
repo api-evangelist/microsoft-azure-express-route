@@ -36,6 +36,8 @@ apis:
       supports creating circuits, configuring peering, managing route filters, and setting up ExpressRoute Global Reach
       for cross-premises connectivity.
 common:
+  - type: OAuthScopes
+    url: scopes/microsoft-azure-express-route-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/Azure
   - type: Portal
@@ -53,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+  - url: https://azure.microsoft.com/en-us/blog/azure-expressroute-updates-new-partnerships-monitoring-and-simplification/
+    type: Blog
