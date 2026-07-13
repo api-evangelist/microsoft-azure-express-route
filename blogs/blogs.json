@@ -1,0 +1,14 @@
+{
+  "repo": "microsoft-azure-express-route",
+  "feeds": [
+    {
+      "source": "https://azure.microsoft.com/en-us/blog/azure-expressroute-updates-new-partnerships-monitoring-and-simplification/",
+      "feed_url": "https://azure.microsoft.com/en-us/blog/feed/",
+      "title": "",
+      "saved": 3,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 4
+}
