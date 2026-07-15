@@ -36,6 +36,8 @@ apis:
       supports creating circuits, configuring peering, managing route filters, and setting up ExpressRoute Global Reach
       for cross-premises connectivity.
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-express-route-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-express-route-domain-security.yml
   - type: Authentication
