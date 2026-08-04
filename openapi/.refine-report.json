@@ -1,0 +1,16 @@
+{
+  "provider": "microsoft-azure-express-route",
+  "sources": [
+    "microsoft-azure-express-route-expressroute-circuits-api-openapi.yml",
+    "microsoft-azure-express-route-operations-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-express-route-expressroute-circuits-api-openapi.yml",
+    "microsoft-azure-express-route-operations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
