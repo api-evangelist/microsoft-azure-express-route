@@ -67,6 +67,8 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/expressroute/
 common:
+  - type: Website
+    url: https://www.microsoft.com/
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-express-route-agentic-access.yml
   - type: DomainSecurity
@@ -94,3 +96,5 @@ maintainers:
     email: kin@apievangelist.com
   - url: https://azure.microsoft.com/en-us/blog/azure-expressroute-updates-new-partnerships-monitoring-and-simplification/
     type: Blog
+x-parent: microsoft-azure
+x-relationship: product
