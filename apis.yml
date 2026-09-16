@@ -1,9 +1,8 @@
 aid: microsoft-azure-express-route
 name: Azure ExpressRoute
-description: >-
-  Azure ExpressRoute lets you create private connections between Azure datacenters and infrastructure on your premises
-  or in a colocation environment. The REST API enables management of circuits, peering, route filters, and ExpressRoute
-  Global Reach for cross-premises connectivity.
+description: Azure ExpressRoute lets you create private connections between Azure datacenters and infrastructure
+  on your premises or in a colocation environment. The REST API enables management of circuits, peering,
+  route filters, and ExpressRoute Global Reach for cross-premises connectivity.
 type: Index
 deliveryModel:
   model: saas
@@ -32,17 +31,17 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-express-route.png
 tags:
-  - ExpressRoute
-  - Hybrid Network
-  - Private Connectivity
-  - WAN
+- ExpressRoute
+- Hybrid Network
+- Private Connectivity
+- WAN
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/apis.yml
 created: '2026-03-13'
-modified: '2026-05-19'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 apis:
 - aid: microsoft-azure-express-route:microsoft-azure-express-route-expressroute-circuits-api
-  name: Azure ExpressRoute ExpressRoute Circuits API
+  name: Azure ExpressRoute Circuits API
   description: ExpressRoute Circuits operations
   humanURL: https://learn.microsoft.com/en-us/rest/api/expressroute/
   baseURL: https://management.azure.com/
@@ -67,34 +66,34 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/expressroute/
 common:
-  - type: Website
-    url: https://www.microsoft.com/
-  - type: AgenticAccess
-    url: agentic-access/microsoft-azure-express-route-agentic-access.yml
-  - type: DomainSecurity
-    url: security/microsoft-azure-express-route-domain-security.yml
-  - type: Authentication
-    url: authentication/microsoft-azure-express-route-authentication.yml
-  - type: OAuthScopes
-    url: scopes/microsoft-azure-express-route-scopes.yml
-  - type: GitHubOrganization
-    url: https://github.com/Azure
-  - type: Portal
-    url: https://portal.azure.com/
-  - type: Pricing
-    url: https://azure.microsoft.com/en-us/pricing/
-  - type: TermsOfService
-    url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: PrivacyPolicy
-    url: https://privacy.microsoft.com/en-us/privacystatement
-  - type: Support
-    url: https://support.microsoft.com/
-  - type: LlmsText
-    url: https://portal.azure.com/llms.txt
+- type: Website
+  url: https://www.microsoft.com/
+- type: AgenticAccess
+  url: agentic-access/microsoft-azure-express-route-agentic-access.yml
+- type: DomainSecurity
+  url: security/microsoft-azure-express-route-domain-security.yml
+- type: Authentication
+  url: authentication/microsoft-azure-express-route-authentication.yml
+- type: OAuthScopes
+  url: scopes/microsoft-azure-express-route-scopes.yml
+- type: GitHubOrganization
+  url: https://github.com/Azure
+- type: Portal
+  url: https://portal.azure.com/
+- type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- type: Support
+  url: https://support.microsoft.com/
+- type: LlmsText
+  url: https://portal.azure.com/llms.txt
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
-  - url: https://azure.microsoft.com/en-us/blog/azure-expressroute-updates-new-partnerships-monitoring-and-simplification/
-    type: Blog
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- url: https://azure.microsoft.com/en-us/blog/azure-expressroute-updates-new-partnerships-monitoring-and-simplification/
+  type: Blog
 x-parent: microsoft-azure
 x-relationship: product
