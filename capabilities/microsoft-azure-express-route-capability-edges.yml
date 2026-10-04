@@ -1,0 +1,25 @@
+slug: microsoft-azure-express-route
+provider: Azure ExpressRoute
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 1
+edges:
+- tag: ExpressRoute Circuits
+  spec_file: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.85
+  evidence: '"createOrUpdateExpressroutecircuits" ... "Azure ExpressRoute lets you create private connections
+    between Azure datacenters and infrastructure on your premises"'
+  reason: CRUD over ExpressRoute circuit resources is provisioning of network connectivity infrastructure
+    — cloud/network infrastructure management.

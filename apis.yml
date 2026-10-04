@@ -66,6 +66,9 @@ apis:
   - type: Documentation
     url: https://learn.microsoft.com/en-us/rest/api/expressroute/
 common:
+- type: CapabilityMap
+  url: capabilities/microsoft-azure-express-route-capability-edges.yml
+  name: Azure ExpressRoute Business Capability Map
 - type: Website
   url: https://www.microsoft.com/
 - type: AgenticAccess
